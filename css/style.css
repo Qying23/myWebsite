@@ -1,0 +1,169 @@
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #656c6d;
+	width: 100% !important;
+	height: 100% !important;
+}
+.nameY{
+	color: grey;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}	
+.left {
+	display: table;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	background: url(../img/daniel.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+#nav{
+	background-color: #ADD8E6;
+	color: grey;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+.nav{
+	font-size: 18px;
+    margin-top: 26px;
+}
+
+header .header-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+/* About Section */
+#about {
+	padding: 100px 0;
+	background: #e0e0e0;
+	margin-bottom: 30px;
+}
+#about .about-text {
+	margin-left: 10px;
+}
+#about img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 20px;
+}
+#about p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ichbin{
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+#contact {
+    padding: 100px 0 90px 0;
+    color:black;
+    background: #ADD8E6;
+}
+
+/* Portfolio Section */
+#portfolio {
+	padding: 80px 0;
+	margin-bottom: 20px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+}
+
+.portfolio-item {
+	margin: 15px 0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.portfolio-item:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.portfolio-item .hover-bg {
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 33% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg .hover-text>i {
+	opacity: 0;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+#portfolio i.fa {
+	font-size: 20px;
+	padding: 5px;
+	color: #E87E04;
+}
+
+/* Skills Section */
+#skills {
+	padding: 100px 0;
+	background: #ADD8E6;
+	margin-bottom: 30px;
+}
+
+#footer{
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
