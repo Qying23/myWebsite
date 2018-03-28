@@ -59,20 +59,35 @@ header .header-text {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-
+.personDetail figcaption span{
+	display: inline-block;
+    margin: 4px;
+}
+i.kBTN{
+    font-size: 23px;
+    color: #fff;
+   	background-color:#ADD8E6;
+    padding: 6px;
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 .ichbin{
 	padding-bottom: 30px;
 	padding-top: 50px;
 }
+
 #contact {
-    padding: 100px 0 90px 0;
+    padding: 100px 0 50px 0;
     color:black;
     background: #ADD8E6;
 }
 
 /* Portfolio Section */
 #portfolio {
-	padding: 80px 0;
+	padding: 30px 0;
 	margin-bottom: 20px;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
@@ -86,6 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .portfolio-item {
 	margin: 15px 0;
+	margin-bottom: 30px;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -101,7 +117,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 260px;
+	height: 200px;
 	overflow: hidden;
 	position: relative;
 }
@@ -111,13 +127,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 33% 0 0 0;
+	padding: 10% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.5s;
 }
-.hover-bg .hover-text>h4 {
+.hover-bg .hover-text >h4 {
 	opacity: 0;
 	color: #fff;
 	font-weight: 400;
@@ -158,12 +174,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background: #ADD8E6;
 	margin-bottom: 30px;
 }
-
+ #map {
+        height: 400px;
+        width: 50%;
+       }
 #footer{
-	padding-bottom: 50px;
-	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 #myBtn:hover {
   background-color: #555;
+}
+.social span {
+	display: inline-block;
+    margin: 10px;
+}
+#contact div a{
+	color: black;
+}
+.contactKl{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.ni{
+	padding-bottom: 15px;
+    padding-top: 15px;
+}
+.errorText{
+	padding-top: 100px;
+	padding-bottom: 150px;
 }
